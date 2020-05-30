@@ -1,0 +1,46 @@
+@import "helpers/stylings/mixins";
+@import "helpers/stylings/global";
+
+.wrapper {
+  @include align-center;
+  border-top: 2px solid $black;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 25px;
+
+  .adrenalin {
+    height: 14px;
+    width: 83px;
+  }
+
+  .footerLinks {
+    @include media-query(sp) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    color: $black;
+    font-family: $fontType1;
+    font-size: $fontXS1;
+    font-weight: 400;
+    line-height: $lineheightXS1;
+
+    & > span {
+      @include media-query(sp) {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background: $black;
+        color: $white;
+        border-radius: 3px;
+      }
+
+      &:not(:last-child) {
+        margin-right: 35px;
+      }
+    }
+  }
+}

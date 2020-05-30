@@ -1,0 +1,87 @@
+@import "helpers/stylings/mixins";
+@import "helpers/stylings/global";
+
+.wrapper {
+  @include align-center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  & > div:last-child {
+    margin-right: 0;
+  }
+
+  .itemSummary {
+    @include media-query(pc) {
+      margin-right: 33px;
+    }
+    margin-bottom: 71px;
+    width: 682px;
+
+    .imageSrc {
+      @include media-query(sp) {
+        width: 100%;
+      }
+
+      margin-bottom: 28px;
+      width: 682px;
+      height: 384px;
+
+      .tag {
+        background: $tagBg;
+        color: $tag;
+        display: inline-table;
+        font-family: $fontType1;
+        font-size: $fontM;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: $lineheightM;
+        padding: 15px 0 0 15px;
+        text-align: right;
+        transform: rotate(180deg);
+        writing-mode: vertical-lr;
+      }
+    }
+
+    .titleContainer {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      width: 466px;
+
+      .title {
+        color: $title;
+        font-family: $fontType1;
+        font-size: $fontL;
+        font-weight: 700;
+        letter-spacing: 0px;
+        line-height: $lineheightL;
+        margin-bottom: 37px;
+      }
+
+      .viewDetailsContainer {
+        @include align-center;
+        cursor: pointer;
+        justify-content: flex-start;
+        margin: auto auto auto 0;
+
+        .line {
+          background: $link;
+          border: none;
+          height: 2px;
+          margin: 0 16px 0 0;
+          width: 32px;
+        }
+
+        .link {
+          color: $link;
+          font-family: $fontType1;
+          font-size: $fontXS2;
+          font-weight: 700;
+          letter-spacing: 0px;
+          line-height: $lineheightXS2;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

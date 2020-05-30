@@ -1,0 +1,118 @@
+@import "helpers/stylings/mixins";
+@import "helpers/stylings/global";
+
+.wrapper {
+  @include align-center;
+  @media (max-width: 1569px) {
+    flex-direction: column;
+  }
+  margin-bottom: 100px;
+
+  .imageSrc {
+    @include media-query(sp) {
+      background-size: cover;
+      width: 100%;
+    }
+
+    @media (max-width: 1569px) {
+      margin-right: 0;
+      margin-bottom: 100px;
+    }
+
+    margin-right: 131px;
+    width: 682px;
+    height: 1107px;
+    background-repeat: no-repeat;
+
+    .tag {
+      background: $tagBg;
+      color: $tag;
+      display: inline-table;
+      font-family: $fontType1;
+      font-size: $fontM;
+      font-weight: 400;
+      letter-spacing: 2px;
+      line-height: $lineheightM;
+      padding: 15px 0 0 15px;
+      text-align: right;
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+    }
+  }
+
+  .contentContainer {
+    width: 564px;
+
+    & > div:last-child > div:last-child {
+      margin-bottom: 0;
+    }
+
+    .title {
+      color: $title;
+      font-family: $fontType1;
+      font-size: $fontTitle;
+      font-weight: 700;
+      letter-spacing: -2px;
+      line-height: $lineheightTitle;
+      margin-bottom: 40px;
+      width: 445px;
+    }
+
+    .sort {
+      @include align-center;
+      justify-content: flex-start;
+      color: $link;
+      cursor: pointer;
+      font-family: $fontType1;
+      font-size: $fontXS2;
+      font-weight: 700;
+      letter-spacing: 0px;
+      line-height: $lineheightXS2;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+
+      & > span {
+        margin-right: 6px;
+      }
+    }
+
+    .questionTitle {
+      color: $black;
+      font-family: $fontType1;
+      font-size: $fontXL;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: $lineheightXL;
+      margin-bottom: 19px;
+    }
+
+    .questionDate {
+      @include align-center;
+      color: $date;
+      justify-content: flex-start;
+      font-family: $fontType1;
+      font-size: $fontXS2;
+      font-weight: 700;
+      letter-spacing: 0px;
+      line-height: $lineheightXS2;
+      margin-bottom: 11px;
+
+      .line {
+        background: $date;
+        border: none;
+        height: 2px;
+        margin: 0 16px 0 0;
+        width: 32px;
+      }
+    }
+
+    .questionText {
+      color: $content;
+      font-family: $fontType2;
+      font-size: $fontS;
+      font-weight: 300;
+      line-height: $lineheightM;
+      margin-bottom: 42px;
+    }
+  }
+}

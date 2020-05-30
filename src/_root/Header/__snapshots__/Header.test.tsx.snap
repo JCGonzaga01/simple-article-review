@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should mount component 1`] = `
+<div
+  className="wrapper"
+>
+  <img
+    alt="adrenalin"
+    className="adrenalin"
+    src="/assets/adrenalin.svg"
+  />
+  <div
+    className="headerLinks"
+  >
+    <span>
+      Culture
+    </span>
+    <span>
+      Work
+    </span>
+    <span>
+      Clients
+    </span>
+    <span>
+      Services
+    </span>
+    <span>
+      Careers
+    </span>
+    <span>
+      Contact
+    </span>
+  </div>
+</div>
+`;

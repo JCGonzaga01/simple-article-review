@@ -1,15 +1,22 @@
-import React from 'react';
-import { shallow } from 'enzyme';
-import Footer from './index';
+import React from "react";
+import Footer from "./index";
+import renderer from "react-test-renderer";
 
-describe('<Footer />', () => {
-  let component;
+describe("<Footer />", () => {
+  let wrapper: any;
+  let instance: any;
 
   beforeEach(() => {
-    component = shallow(<Footer />);
+    wrapper = renderer.create(<Footer />);
+    instance = wrapper.root;
   });
 
-  test('It should mount', () => {
-    expect(component.length).toBe(1);
+  test("should mount component", () => {
+    let tree = wrapper.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  test("should display footer links", () => {
+    expect(instance.findByProps({ className: "footerLinks" }).children).toHaveLength(6);
   });
 });

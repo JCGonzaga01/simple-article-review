@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemList /> should mount component 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="itemSummary"
+  >
+    <div
+      className="imageSrc"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/itemlist/1001_thumb.jpg)",
+        }
+      }
+    >
+      <span
+        className="tag"
+      >
+        Toga Group
+      </span>
+    </div>
+    <div
+      className="titleContainer"
+    >
+      <span
+        className="title"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero id auctor.
+      </span>
+      <div
+        className="viewDetailsContainer"
+        onClick={[Function]}
+      >
+        <hr
+          className="line"
+        />
+        <span
+          className="link"
+        >
+          View Case Study
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemSummary"
+  >
+    <div
+      className="imageSrc"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/itemlist/1002_thumb.jpg)",
+        }
+      }
+    >
+      <span
+        className="tag"
+      >
+        Hungry Jacks
+      </span>
+    </div>
+    <div
+      className="titleContainer"
+    >
+      <span
+        className="title"
+      >
+        Aenean vulputate augue sed lorem ultricies, a placerat mi dictum
+      </span>
+      <div
+        className="viewDetailsContainer"
+        onClick={[Function]}
+      >
+        <hr
+          className="line"
+        />
+        <span
+          className="link"
+        >
+          View Case Study
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemSummary"
+  >
+    <div
+      className="imageSrc"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/itemlist/1003_thumb.jpg)",
+        }
+      }
+    >
+      <span
+        className="tag"
+      >
+        UNSW
+      </span>
+    </div>
+    <div
+      className="titleContainer"
+    >
+      <span
+        className="title"
+      >
+        Nulla non ante ultrices, blandit velit non
+      </span>
+      <div
+        className="viewDetailsContainer"
+        onClick={[Function]}
+      >
+        <hr
+          className="line"
+        />
+        <span
+          className="link"
+        >
+          View Case Study
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemSummary"
+  >
+    <div
+      className="imageSrc"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/itemlist/1004_thumb.jpg)",
+        }
+      }
+    >
+      <span
+        className="tag"
+      >
+        Osko
+      </span>
+    </div>
+    <div
+      className="titleContainer"
+    >
+      <span
+        className="title"
+      >
+        Vivamus vitae elit viverra, imperdiet quam quis, fermentum justo
+      </span>
+      <div
+        className="viewDetailsContainer"
+        onClick={[Function]}
+      >
+        <hr
+          className="line"
+        />
+        <span
+          className="link"
+        >
+          View Case Study
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

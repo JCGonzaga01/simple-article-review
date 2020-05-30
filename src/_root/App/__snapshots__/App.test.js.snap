@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> It should mount 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="wrapper"
+  >
+    <img
+      alt="adrenalin"
+      className="adrenalin"
+      src="/assets/adrenalin.svg"
+    />
+    <div
+      className="headerLinks"
+    >
+      <span>
+        Culture
+      </span>
+      <span>
+        Work
+      </span>
+      <span>
+        Clients
+      </span>
+      <span>
+        Services
+      </span>
+      <span>
+        Careers
+      </span>
+      <span>
+        Contact
+      </span>
+    </div>
+  </div>
+  <div />
+  <div
+    className="wrapper"
+  >
+    <img
+      alt="adrenalin"
+      className="adrenalin"
+      src="/assets/adrenalin.svg"
+    />
+    <div
+      className="footerLinks"
+    >
+      <span>
+        Privacy
+      </span>
+      <span>
+        Sitemap
+      </span>
+      <span>
+        Facebook
+      </span>
+      <span>
+        LinkedIn
+      </span>
+      <span>
+        Instagram
+      </span>
+      <span>
+        Twitter
+      </span>
+    </div>
+  </div>
+</div>
+`;

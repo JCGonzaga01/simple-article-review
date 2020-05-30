@@ -18,7 +18,6 @@ const ItemDetails: React.FC = () => {
 
   const handleOnClickSort = () => {
     const isSortLatest = sortText === "sort by latest";
-    console.log(sortText);
     const sortedQuestions =
       [...questions].sort((a, b) => {
         const curr = moment(a.date).utc().format("YYYYMMDD") as any;

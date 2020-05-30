@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should mount component 1`] = `
+<div
+  className="wrapper"
+>
+  <img
+    alt="adrenalin"
+    className="adrenalin"
+    src="/assets/adrenalin.svg"
+  />
+  <div
+    className="footerLinks"
+  >
+    <span>
+      Privacy
+    </span>
+    <span>
+      Sitemap
+    </span>
+    <span>
+      Facebook
+    </span>
+    <span>
+      LinkedIn
+    </span>
+    <span>
+      Instagram
+    </span>
+    <span>
+      Twitter
+    </span>
+  </div>
+</div>
+`;

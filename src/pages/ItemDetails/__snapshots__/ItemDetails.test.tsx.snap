@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemDetails /> should mount component 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="imageSrc"
+    style={
+      Object {
+        "backgroundImage": "url(/assets/itemdetails/1001.jpg)",
+      }
+    }
+  >
+    <span
+      className="tag"
+    >
+      Toga Group
+    </span>
+  </div>
+  <div
+    className="contentContainer"
+  >
+    <div
+      className="title"
+    >
+      Lorem ipsum dolor sit amet
+    </div>
+    <div
+      className="sort"
+      onClick={[Function]}
+    >
+      <span>
+        sort by latest
+      </span>
+      <img
+        alt="sort"
+        src="/assets/sort.png"
+      />
+    </div>
+    <div>
+      <div
+        className="questionTitle"
+      >
+        Content title 1
+      </div>
+      <div
+        className="questionDate"
+      >
+        <hr
+          className="line"
+        />
+        11/05/1984
+      </div>
+      <div
+        className="questionText"
+      >
+        eiusmod sint esse est velit et nostrud quis mollit elit nostrud est proident reprehenderit ea ut fugiat sunt aliqua consectetur dolor irure ut aliqua voluptate
+      </div>
+    </div>
+    <div>
+      <div
+        className="questionTitle"
+      >
+        Content title 2
+      </div>
+      <div
+        className="questionDate"
+      >
+        <hr
+          className="line"
+        />
+        19/04/1996
+      </div>
+      <div
+        className="questionText"
+      >
+        ut in nisi qui nulla voluptate minim sunt elit ad id commodo pariatur ipsum veniam in pariatur cillum do elit incididunt enim do excepteur dolor
+      </div>
+    </div>
+    <div>
+      <div
+        className="questionTitle"
+      >
+        Content title 3
+      </div>
+      <div
+        className="questionDate"
+      >
+        <hr
+          className="line"
+        />
+        09/12/2004
+      </div>
+      <div
+        className="questionText"
+      >
+        eiusmod officia est velit tempor voluptate in in non est non dolore cillum eiusmod adipisicing laboris minim fugiat adipisicing voluptate quis nulla irure anim excepteur
+      </div>
+    </div>
+    <div>
+      <div
+        className="questionTitle"
+      >
+        Content title 4
+      </div>
+      <div
+        className="questionDate"
+      >
+        <hr
+          className="line"
+        />
+        03/11/1970
+      </div>
+      <div
+        className="questionText"
+      >
+        amet cillum veniam dolor duis incididunt Lorem cupidatat Lorem officia quis consectetur dolor non laborum occaecat pariatur est nulla aliqua aliqua ex veniam dolore laborum
+      </div>
+    </div>
+    <div>
+      <div
+        className="questionTitle"
+      >
+        Content title 5
+      </div>
+      <div
+        className="questionDate"
+      >
+        <hr
+          className="line"
+        />
+        30/03/1976
+      </div>
+      <div
+        className="questionText"
+      >
+        sunt eiusmod cupidatat dolore nostrud labore fugiat enim do eiusmod dolore cupidatat eu dolore deserunt aliquip sint laborum consectetur voluptate irure ea veniam exercitation deserunt
+      </div>
+    </div>
+  </div>
+</div>
+`;

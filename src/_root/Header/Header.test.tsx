@@ -1,15 +1,25 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Header from './index';
+import renderer from 'react-test-renderer';
 
 describe('<Header />', () => {
-  let component;
+  let wrapper: any;
+  let instance: any;
 
   beforeEach(() => {
-    component = shallow(<Header />);
+    wrapper = renderer.create(<Header />);
+    instance = wrapper.root;
   });
 
-  test('It should mount', () => {
-    expect(component.length).toBe(1);
+  test('should mount component', () => {
+    const component = renderer.create(
+      <Header />,
+    );
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  test("should display header links", () => {
+    expect(instance.findByProps({className: 'headerLinks'}).children).toHaveLength(6)
   });
 });

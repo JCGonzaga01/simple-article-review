@@ -13,6 +13,11 @@ const ItemDetails: React.FC = () => {
   const url = process.env.PUBLIC_URL + `/assets/itemdetails/${details?.image}`;
 
   useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
     return () => setQuestions(details?.questions || []);
   }, [details]);
 

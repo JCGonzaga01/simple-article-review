@@ -41,7 +41,7 @@
   }
 
   .contentContainer {
-    width: 564px;
+    max-width: 564px;
 
     & > div:last-child > div:last-child {
       margin-bottom: 0;
@@ -55,7 +55,7 @@
       letter-spacing: -2px;
       line-height: $lineheightTitle;
       margin-bottom: 40px;
-      width: 445px;
+      max-width: 445px;
     }
 
     .sort {

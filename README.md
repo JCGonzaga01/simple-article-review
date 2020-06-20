@@ -1,4 +1,4 @@
-Project repository for the coding test of FlexisourceIT
+Project repository for Simple Article Review
 
 Below are the scripts available to run and test the project 
 
@@ -21,4 +21,3 @@ This launches the test runner in the interactive watch mode.<br  />
 It will display the result of unit test cases created.
 
 ## DEMO LINK
-[Flexisource IT Code Test](https://flexisourceit-code-test.herokuapp.com/)
